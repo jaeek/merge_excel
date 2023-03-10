@@ -2,7 +2,8 @@
 헤더가 동일할 때, 엑셀파일(.xlsx) 또는 시트 결합하는 파일
 
 
-#cmd 윈도우 사용
+# 실행법  윈도우 사용 cmd
+.py 파일과 동일 폴더에서
 pyinstaller -F merge_excel2.py --hidden-import pandas --hidden-import tkinter --hidden-import openpyxl
 
 
