@@ -5,6 +5,7 @@
 #cmd 윈도우 사용
 pyinstaller -F merge_excel2.py --hidden-import pandas --hidden-import tkinter --hidden-import openpyxl
 
+
 # 실행법
 1. dist 폴더
 2. 실행
